@@ -1,0 +1,150 @@
+body {
+    font-family: Arial;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #F35E3D;
+}
+
+p{
+    margin: 10px 0px;
+}
+
+.todo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.pickers {
+    align-self: flex-start;
+    margin: 0px 100px 0px 0px;
+}
+
+.caja {
+    float: left;
+}
+
+img {
+    border-radius: 50px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#rango1 {
+    padding: 5px;
+    max-width: 18%;
+    min-width: 100px;
+    width: auto;
+    width: 16%;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient( #FFE193, #FFFFFF);
+}
+
+#rango2 {
+    padding: 5px;
+    max-width: 18%;
+    min-width: 100px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient( #FFDC5F, #FFE193);
+}
+
+#rango3 {
+    padding: 5px;
+    max-width: 18%;
+    min-width: 100px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient( #FFD231, #FFDC5F);
+}
+
+#rango4 {
+    padding: 5px;
+    max-width: 18%;
+    min-width: 100px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient( #FE8C39, #FFD231);
+}
+
+#rango5 {
+    padding: 5px;
+    max-width: 18%;
+    min-width: 100px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(#F35E3D, #FE8C39);
+}
+
+#rango6 {
+    padding: 5px;
+    max-width: 18%;
+    min-width: 100px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#rango6 img {
+    border: solid;
+    border-width: 5px;
+    border-color: #F35E3D;
+}
+
+.slider {
+    -webkit-appearance: none;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background: #F35E3D;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #F35E3D;
+    cursor: pointer;
+  }
+  
+  select {
+      padding: 5px;
+      margin: 5px 0px 0px 0px;
+      font-size: 15px;
+      background-color: #FFAD72;
+      cursor: pointer;
+      color: white;
+      border: none;
+  }
+
+  .ranges {
+    margin: 40px 0px;
+  }
