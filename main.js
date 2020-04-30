@@ -193,7 +193,7 @@ window.addEventListener('load', () => {
             distancia = calcularDist(usuarioSelec, personasNorma);
             var img = document.createElement('img');
 
-            img.src = '/Fotos/' + usuarioSelec + '.jpg';
+            img.src = 'Fotos/' + usuarioSelec + '.jpg';
             img.width = '100';
             img.height = '100';
             rango6.appendChild(img);
@@ -203,7 +203,7 @@ window.addEventListener('load', () => {
                     
                     if((distancia[i]*100) > 0 && (distancia[i]*100) < 20 ) {
                         var img1 = document.createElement('img');
-                        img1.src = '/Fotos/' + i + '.jpg';
+                        img1.src = 'Fotos/' + i + '.jpg';
                         img1.width = '100';
                         img1.height = '100';
                         rango1.appendChild(img1);
@@ -211,7 +211,7 @@ window.addEventListener('load', () => {
                     }
                     if((distancia[i]*100) > 20 && (distancia[i]*100) < 40 ) {
                         var img2 = document.createElement('img');
-                        img2.src = '/Fotos/' + i + '.jpg';
+                        img2.src = 'Fotos/' + i + '.jpg';
                         img2.width = '100';
                         img2.height = '100';
                         rango2.appendChild(img2);
@@ -219,7 +219,7 @@ window.addEventListener('load', () => {
                     }
                     if((distancia[i]*100) > 40 && (distancia[i]*100) < 60 ) {
                         var img3 = document.createElement('img');
-                        img3.src = '/Fotos/' + i + '.jpg';
+                        img3.src = 'Fotos/' + i + '.jpg';
                         img3.width = '100';
                         img3.height = '100';
                         rango3.appendChild(img3);
@@ -227,7 +227,7 @@ window.addEventListener('load', () => {
                     }
                     if((distancia[i]*100) > 60 && (distancia[i]*100) < 80 ) {
                         var img4 = document.createElement('img');
-                        img4.src = '/Fotos/' + i + '.jpg';
+                        img4.src = 'Fotos/' + i + '.jpg';
                         img4.width = '100';
                         img4.height = '100';
                         rango4.appendChild(img4);
@@ -235,7 +235,7 @@ window.addEventListener('load', () => {
                     }
                     if((distancia[i]*100) > 80 && (distancia[i]*100) < 100 ) {
                         var img5 = document.createElement('img');
-                        img5.src = '/Fotos/' + i + '.jpg';
+                        img5.src = 'Fotos/' + i + '.jpg';
                         img5.width = '100';
                         img5.height = '100';
                         rango5.appendChild(img5);
